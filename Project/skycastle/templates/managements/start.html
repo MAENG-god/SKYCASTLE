@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'managements/css/start.css' %}">
+</head>
+<body>
+    <div class="startview">
+        <div class="title">
+            <div class="sky">SKY</div>
+            <div class="castle">CASTLE</div>
+            <div class="intro">선생님을 위한 학생관리 플랫폼</div>
+        </div>
+        <div class="loginbox">
+            <img src="{% static 'managements/img/kakao_login_medium_wide.png' %}" class="login_btn">
+        </div>
+    </div>
+    <script src="{% static 'managements/js/start.js' %}"></script>
+</body>
+</html>
